@@ -1,0 +1,6 @@
+proc /proc proc defaults 0 0
+/dev/md/0 none swap sw 0 0
+/dev/md/1 /boot ext3 defaults 0 0
+/dev/md/2 / ext4 defaults 0 0
+//u85589.your-backup.de/backup /mnt/backup-server       cifs    iocharset=utf8,rw,credentials=/etc/backup-credentials.txt,uid=allanmc,gid=scripler,file_mode=0660,dir_mode=0770 0       0
+
